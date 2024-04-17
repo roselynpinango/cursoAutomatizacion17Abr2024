@@ -41,6 +41,8 @@ public class Practica6Test {
 	
 	@Test
 	public void buscarPalabra() {
+		System.out.println("Inicio del @Test");
+		
 		PaginaInicio inicio = new PaginaInicio(driver);
 		inicio.escribirPalabra("dress");
 		inicio.hacerBusqueda();
